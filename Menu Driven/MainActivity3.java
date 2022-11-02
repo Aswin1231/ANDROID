@@ -1,4 +1,4 @@
-package com.example.menudriven;
+package com.example.menu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,25 +9,25 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity3 extends AppCompatActivity {
-    EditText c1,c2,c3,c4;
+    EditText t4,t5,t6,t7;
     Button b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        c1=(EditText) findViewById(R.id.c1);
-        c2=(EditText) findViewById(R.id.c2);
-        c3=(EditText) findViewById(R.id.c3);
-        c4=(EditText) findViewById(R.id.c4);
+        t4=(EditText) findViewById(R.id.t4);
+        t5=(EditText) findViewById(R.id.t5);
+        t6=(EditText) findViewById(R.id.t6);
+        t7=(EditText) findViewById(R.id.t7);
         b2=(Button) findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String n1=c1.getText().toString();
-                String n2=c2.getText().toString();
-                String n3=c3.getText().toString();
-                String n4=c4.getText().toString();
+                String n1=t4.getText().toString();
+                String n2=t5.getText().toString();
+                String n3=t6.getText().toString();
+                String n4=t7.getText().toString();
                 int a=Integer.parseInt(n1);
                 int b=Integer.parseInt(n2);
                 int c=Integer.parseInt(n3);
