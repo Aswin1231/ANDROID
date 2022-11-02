@@ -1,4 +1,4 @@
-package com.example.menudriven;
+package com.example.menu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
